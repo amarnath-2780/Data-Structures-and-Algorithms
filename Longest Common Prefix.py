@@ -12,8 +12,6 @@ def allContainsPrefix(strList, str,
                 return False
     return True
  
-# A Function that returns the longest
-# common prefix from the array of strings
  
  
 def CommonPrefix(strList):
@@ -32,12 +30,8 @@ def CommonPrefix(strList):
         if allContainsPrefix(strList,
                              strList[0], low, mid):
  
-            # If all the strings in the input array
-            # contains this prefix then append this
-            # substring to our answer
             prefix = prefix + strList[0][low:mid + 1]
  
-            # And then go for the right part
             low = mid + 1
         else:
  
