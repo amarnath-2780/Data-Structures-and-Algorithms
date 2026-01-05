@@ -1,9 +1,4 @@
-"""
-Find the Minimum Element in an Array
-Input: [10, 5, 12, 3, 7]
-Time complexity :- O(n)
-Space Complexity :- O(1)
-"""
+
 
 data = [10, 5, 12, 3, 7]
 
